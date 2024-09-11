@@ -1,6 +1,10 @@
 body {
-  font-family: "poppins";
+  font-family: "";
   background-color: #fffcf5;
+}
+
+*{
+  font-family: 'Poppins';
 }
 
 .sidenav {
@@ -9,12 +13,16 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #faecf6;
+  background-image: linear-gradient(10deg, #e67399, #f2a640);
+  background-position-x: 10px;
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   overflow-x: hidden;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   word-spacing: 10px;
   color: #f2a640;
-  text-align: left;
 }
 
 h1 {
@@ -36,19 +44,19 @@ h1:hover {
 
 .content {
   width: 20%;
+  height: fit-content;
   position: fixed;
   z-index: 1;
-  right: 0;
-  bottom: 0;
-  padding-bottom: 25%;
+  right: 0.5%;
+  bottom: 1%;
   background-color: #faecf6;
   overflow-x: hidden;
-  word-spacing: 10px;
-  color: #f2a640;
+  word-spacing: 2px;
+  color: #340144;
 }
 
 a {
-  color: orangered;
+  color: #340144;
   font-weight: bold;
   text-decoration: none;
 }
